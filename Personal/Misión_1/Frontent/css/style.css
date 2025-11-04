@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(228, 195, 223);
+} 
+
+/*Resetear estilos*/
+    {margin:0;
+padding:0;}
+
+header{background-color: hotpink;
+color:white;
+padding:20;
+text-align:center;} 
+
+nav ul{
+    list-style: none;
+    display:flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav ul li {
+    margin: 0 15px;}
+
+    nav ul li a{
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+h1 {
+    color: rgb(209, 45, 168);
+}
+
+h2 {
+    color: rgb(140, 97, 189);
+}
+
+h3 {
+    color: rgb(141, 80, 123);
+}
