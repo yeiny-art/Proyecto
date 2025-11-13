@@ -3,7 +3,8 @@ body {
 } 
 
 /*Resetear estilos*/
-*{margin:0;
+*{
+    margin:0;
 padding:0;}
 
 header{background-color: hotpink;
@@ -37,4 +38,28 @@ h2 {
 
 h3 {
     color: rgb(141, 80, 123);
+}
+
+/* Estilos footer */
+
+footer{
+    background-color: #a72867;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;}
+
+.contenido{
+    padding:40px;
+    text-align: center;
+}
+
+.formulario{
+    max-width: 500px;
+    margin: 30px auto;
+    background-color: rgb(236, 187, 210);
+    padding: 20px;
+    border-radius: 8px;
 }
